@@ -141,3 +141,21 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Dependencies
+node_modules/
+
+# Environment variables — ห้าม commit เด็ดขาด!
+.env
+.env.local
+
+# Build output
+dist/
+build/
+
+# Docker
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
